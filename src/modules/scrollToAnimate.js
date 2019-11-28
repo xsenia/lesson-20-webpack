@@ -3,7 +3,7 @@
 const scrollToAnimate = () => {
 
     let linkNav = document.querySelectorAll('menu ul li a'),
-    V = 0.7  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
+        V = 0.7  // скорость, может иметь дробное значение через точку (чем меньше значение - тем больше скорость)
     
     for (let i = 0; i < linkNav.length; i++) {
         linkNav[i].addEventListener('click', function(e) {
@@ -27,8 +27,10 @@ const scrollToAnimate = () => {
                     } else {
                         location.hash = hash  // URL с хэшем
                     }                    
-                }
+                };
 
         }, false);
     }
 };
+
+export default scrollToAnimate;

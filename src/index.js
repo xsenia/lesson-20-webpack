@@ -19,8 +19,6 @@ toggleMenu();
 
 togglePopup();
 
-scrollToAnimate();
-
 tabs();
 
 changeImg();
@@ -38,3 +36,5 @@ calc(100);
 sendForm('form1');
 sendForm('form2');
 sendForm('form3'); 
+
+scrollToAnimate();
